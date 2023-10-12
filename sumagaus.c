@@ -7,12 +7,14 @@ int main(){
 
     if (num < 1) {
         printf("Numero no valido ingrese un numero valido .\n");
-        }else{  
+        }else{
         for (int i = 1; i<= num; i++) {
             sum += i;
         }
 
         printf("El resultado de %d es esto  %d\n", num , sum);
     }
+    printf(" Gracias por usar el progrma; ");
+
     return 0;
 }
